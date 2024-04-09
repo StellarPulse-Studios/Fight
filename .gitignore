@@ -9,6 +9,14 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Uu]ser[Ss]ettings/[Ll]ayouts/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+#Ignoring unwanted assets
+/[Aa]ssets/[Tt]hirdParty/
+/[Aa]ssets/[Tt]hirdParty.meta
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
